@@ -1,3 +1,5 @@
+package ru.netology.bonus;
+
 public class BonusService {
     public int calculate(int amount, boolean registered) {
         int percent = registered ? 3 : 1;
